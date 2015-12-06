@@ -1,0 +1,15 @@
+<html>
+<head><title>Table of Contents</title></head>
+<body>
+  <div>
+    <a id="toc"></a>
+    <center><h1><b>Table of Contents</b></h1></center><br />
+    <!-- <mpb:pagebreak />-->
+    <div>
+      {% for title, page, content in articles %}
+        <p><a href="book.html#{{ page }}">{{ title }}</a></p>
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>

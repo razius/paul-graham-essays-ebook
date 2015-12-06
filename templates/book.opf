@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid">
+<metadata>
+    <dc-metadata 
+        xmlns:dc="http://purl.org/metadata/dublin_core"
+        xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+        <dc:Title>Essays</dc:Title>
+        <dc:Publisher></dc:Publisher>
+        <dc:Creator>Paul Graham</dc:Creator>
+        <dc:Producer>Paul Graham</dc:Producer>
+        <dc:Language>en-us</dc:Language>
+        <dc:Identifier id="uid">Essays - Paul Graham</dc:Identifier>
+    </dc-metadata>
+    <x-metadata>
+        <output encoding="Windows-1252" content-type="text/x-oeb1-document"></output>	
+        <EmbeddedCover>cover.png</EmbeddedCover>
+    </x-metadata>
+</metadata>
+
+<manifest>  
+   <item id="item2" media-type="text/x-oeb1-document" href="book.html"></item>
+   <item id="item1" media-type="text/x-oeb1-document" href="toc.html"></item> 
+   <item id="toc" media-type="application/x-dtbncx+xml" href="book.ncx"/>
+   <item id="bookcover" media-type="image/png" href="cover.png"></item>
+</manifest>
+
+<spine toc="My_Table_of_Contents" pageList><itemref idref="item1"/></spine>
+
+<tours></tours>
+
+<guide>
+    <reference type="toc" title="Table of Contents" href="toc.html#toc"></reference>
+    <reference type="text" title="start" href="book.html#start"></reference>
+</guide>
+
+</package>

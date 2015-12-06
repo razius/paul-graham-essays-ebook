@@ -1,0 +1,62 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, 
+li, dt, dd, p, pre, table, th, td, tr 
+{ margin: 0; padding: 0; }
+
+body {
+    background-color: #d0ffff;
+    font-size: medium;
+    text-align: justify
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+    font-style: bold;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+h4 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+p {
+    text-indent: 8%;
+}
+
+table.center {margin-left:auto; margin-right:auto;}
+
+table
+{
+    border: 3px solid black;
+}
+table th, td
+{
+    border: 1px solid black;
+}
+
+td, th
+{
+    font-size: x-small;
+    font-weight: normal;
+    text-align:center;
+}
+
+.break { page-break-before: always; }

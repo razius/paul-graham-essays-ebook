@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>Paul Graham: Essays</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <a id="start"></a>
+  <a id="Page1"></a>
+  <h1><big>Paul Graham: Essays</big></h1>
+  <mbp:pagebreak />
+  {% for title, page, content in articles %}
+    <div id="{{ page }}">
+      <h2><big>{{ title }}</big></h2><br />
+      {{ content }}
+      <mbp:pagebreak />
+    </div>
+  {% endfor %}
+</body>
+</html>
