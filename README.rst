@@ -24,7 +24,7 @@ Getting started
 
   git clone https://github.com/razius/paul-graham-essays-ebook.git
   cd paul-graham-essays-ebook
-  pip install requirements.txt
+  pip install -r requirements.txt
 
 Building the ebook
 ==================
